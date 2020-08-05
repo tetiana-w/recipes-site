@@ -10,7 +10,9 @@ Benötigt wird:
 - XAMPP
 - Web browser
 <br>
-1. Projekt in XAMPP/htdocs Verzeichnis kopieren
-2. datenbank-rezepte.sql im phpAdmin (MySQL) importieren
-3. Apache und MySQL im XAMPP starten
-4. http://localhost öffnen um das Projekt im Browser zu sehen
+<ul>
+  <ol> Projekt in XAMPP/htdocs Verzeichnis kopieren</ol>
+  <ol> datenbank-rezepte.sql im phpAdmin (MySQL) importieren</ol>
+  <ol> Apache und MySQL im XAMPP starten</ol>
+  <ol> http://localhost öffnen um das Projekt im Browser zu sehen</ol>
+</ul>
