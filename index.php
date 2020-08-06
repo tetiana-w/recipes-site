@@ -9,6 +9,7 @@ include("php/login/check_login.php");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rezepte</title>
+	<link rel="icon" href="img/himbeere_icon.jpg" sizes="32x32" type="image/jpg">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
