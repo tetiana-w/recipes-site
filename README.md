@@ -2,7 +2,10 @@
 Eine Webseite mit Rezepten, die in einer Datenbank gespeichert sind. Auf der Website ist es möglich sich zu Registrieren, einzuloggen, Rezepte anzusehen, zu erstellen und zu editieren.
 
 <p align="center">
-  <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_login.png" width="800" title="Login Seite">    
+  <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_recipes.png" width="800" title="Seite Rezepte">  
+</p>
+<p>
+<img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_login.png" width="800">
 </p>
 
 # Projekt starten
