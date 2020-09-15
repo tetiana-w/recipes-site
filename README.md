@@ -7,6 +7,9 @@ Eine Webseite mit Rezepten, die in einer Datenbank gespeichert sind. Auf der Web
 <p>
 <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_login.png" width="800">
 </p>
+<p>
+<img src="https://github.com/tetiana-w/recipes-site/blob/master/screenshot_user_table.png" width="800">
+</p>
 
 # Projekt starten
 Benötigt wird:
