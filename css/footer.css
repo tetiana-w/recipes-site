@@ -1,0 +1,18 @@
+    /* Footer */
+    footer {
+          position: fixed;
+        left: 0;
+        bottom: 0; 
+    }
+     #main-footer {
+        width: 100%;       
+        background: #333;
+        color: #fff;
+        text-align: center;       
+        padding: 1em 0;
+    }
+
+    #main-footer a {
+        color: #2690d4;
+        text-decoration: none;
+    } 
