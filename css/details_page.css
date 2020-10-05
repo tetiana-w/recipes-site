@@ -1,0 +1,36 @@
+.details-container, .details-title h2 {
+    color: #555555;
+}
+
+.details-title {
+    padding: 1rem 0;
+    margin-bottom: 2%;
+}
+
+#description, #details-head {
+    margin-bottom: 1rem;
+}
+
+#category-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.category h2 {
+    font-size: 1.5em;
+}
+
+.zutaten-box {
+    text-align: left;
+}
+
+.ordered ul {
+    padding: 0;
+}
+
+@media(min-width: 700px) {
+    #details-head {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
