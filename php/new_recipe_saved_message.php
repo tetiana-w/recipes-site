@@ -1,4 +1,4 @@
-<div class='nachricht'>
+<div class='message'>
     <?php
     $rezept_num = $datenbank->insert_id;
     if ($datenbank->affected_rows == 1 && $datenbank->warning_count == 0) {

@@ -16,7 +16,9 @@
         </select>
     </div>
     <div class="zutaten-input">
-        <input class='btn btn-green' type='submit' value='S' name='update_zutaten'>
-
+        <div class="btn-form">
+            <input class='btn btn-green' type='submit' value='Speichern' name='update_zutaten'>
+            <a href='?link=all&rezeptnum=<?php echo $rezept_num ?>' class='btn btn-green'>Zurück</a>
+        </div>
     </div>
 </form>

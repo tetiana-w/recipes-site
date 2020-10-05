@@ -1,4 +1,4 @@
-<div class="nachricht">
+<div class="message">
 <?php
 if ($datenbank->affected_rows == 1 && $datenbank->warning_count == 0) {
     echo "<p>Geschpeichert</p>";

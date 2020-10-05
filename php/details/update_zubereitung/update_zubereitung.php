@@ -1,4 +1,4 @@
-<div class="container recepies">
+<div class="container">
     <h2>Zubereitung ändern</h2>
 
     <?php
@@ -24,9 +24,8 @@
         include("update_nachricht.php");   
     } else {         
         include("update_zubereitung_form.php");
-    }
+    }   
     
-    echo "<a href='?link=all&rezeptnum=$rezept_num' class='btn btn-green'>Zurück</a>";
     mysqli_close($datenbank);
     ?>
 </div>

@@ -11,7 +11,6 @@ $query_zutaten = mysqli_query(
 );
 
 ?>
-
 <div class='zutaten-box'>
     <ul>
         <?php
@@ -21,7 +20,7 @@ $query_zutaten = mysqli_query(
             $masseneinheit = $zutatendaten["masseneinheit"];
             $rz_num = $zutatendaten["rz_num"];
             $rezept_num = $_GET["rezeptnum"];
-            
+          
             $zutaten_menge = ($zutaten_menge > 0) ? $zutaten_menge : "";
             echo "<li>
             <div>$zutaten - $zutaten_menge $masseneinheit</div>";
@@ -34,6 +33,5 @@ $query_zutaten = mysqli_query(
             echo "</li>";
         }
         ?>
-
     </ul>
 </div>

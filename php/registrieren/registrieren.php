@@ -1,4 +1,4 @@
-<div class="container recepies">
+<div class="container">
     <h2>Registrieren</h2>
 
     <?php

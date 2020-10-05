@@ -21,10 +21,10 @@ if (isset($_POST["login"])) {
         if (password_verify($passwort, $passwort_db)) {
             $_SESSION["eingeloggt"] = true;
         } else {
-            $loginfehler = "<div class='fehler'><p>Das Passwort oder das Login ist leider falsch</p></div>";
+            $loginfehler = "<div class='error-message'><p>Das Passwort oder das Login ist leider falsch</p></div>";
         }
     } else {
-        $loginfehler = "<div class='fehler'><p>Einloggen hat nicht geklappt</p></div>";
+        $loginfehler = "<div class='error-message'><p>Einloggen hat nicht geklappt</p></div>";
     }
 
     mysqli_close($datenbank);

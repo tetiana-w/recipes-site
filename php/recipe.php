@@ -1,4 +1,4 @@
-<div class="container recepies">
+<div class="container">
     <?php
     $datenbank = mysqli_connect("localhost", "root", "", "rezepte");
     mysqli_query($datenbank, "set names utf8");
@@ -23,11 +23,11 @@
         unset($_GET["gaengemenue"]);
     }
     ?>
-    <div>
-        <ul class="recipe-buttons">
-            <?php include("recipe_menue.php"); ?>
-        </ul>
+
+    <div class="recipe-links">
+        <?php include("recipe_menue.php"); ?>
     </div>
+
     <?php
     if (isset($_GET["rezeptnum"])) {
         include("details/recipe_details.php");
@@ -35,11 +35,12 @@
 
     ?>
         <form action="?link=all" method="post">
-            <div class="suche">
+            <div id="search-container">
                 <input type="text" placeholder="Suche" name="suche" value="<?php echo @$_POST["suche"]; ?>" />
                 <input type="submit" class="btn btn-green" value="Suchen" />
             </div>
         </form>
+
     <?php
 
         $query = "select r.*, s.schwierigkeitstufe 
@@ -61,9 +62,9 @@
             $query .= " where " . $extension;
         }
         $rezept_query = mysqli_query($datenbank, $query);
-        
 
-        echo "<div class='food-container'>";
+
+        echo "<div id='food-container' class='grid-col-3'>";
         while ($rezeptdaten = mysqli_fetch_array($rezept_query)) {
             $rezeptnum = $rezeptdaten["rezept_num"];
             $rezepttitel = $rezeptdaten["rezept_titel"];

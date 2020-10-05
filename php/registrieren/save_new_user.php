@@ -28,9 +28,9 @@ if (isset($_POST["reg"])) {
                 )"
         );
         if ($datenbank->affected_rows == 1 && $datenbank->error == "") {
-            echo "<div class='nachricht'><p>Registrieren war erfolgreich</p></div>";
+            echo "<div class='message'><p>Registrieren war erfolgreich</p></div>";
         }
     } else {
-        echo "<div class='fehler'><p>Login ist nicht gültig</p></div>";
+        echo "<div class='error-message'><p>Login ist nicht gültig</p></div>";
     }
 }

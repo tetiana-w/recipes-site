@@ -3,7 +3,7 @@ $datenbank = mysqli_connect("localhost", "root", "", "rezepte");
 mysqli_query($datenbank, "set names utf8");
 echo $datenbank->error;
 ?>
-<div class="container recepies">
+<div class="container">
     <h2>Zutaten hinzufügen</h2>
     <form method="post" class="zutaten-form">
         <div class="zutaten-input">

@@ -35,11 +35,12 @@
     </select>
 
     <label>Hauptbild</label>
-    <div class="bild-box">        
+    <div class="bild-box">
         <input type="file" name="hauptbild"></input>
         <img src="uploaded/<?php echo $hauptbild ?>" alt="" />
     </div>
-    
-    <input class='btn btn-green' type='submit' value='Speichern' name='rezept_update'>
-    <a href='?link=all&rezeptnum=<?php echo $_GET["rezeptnum"]; ?>' class='btn btn-green'>Zurück</a>
+    <div class="btn-form">
+        <input class='btn btn-green' type='submit' value='Speichern' name='rezept_update'>
+        <a href='?link=all&rezeptnum=<?php echo $_GET["rezeptnum"]; ?>' class='btn btn-green'>Zurück</a>
+    </div>
 </form>

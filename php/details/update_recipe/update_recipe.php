@@ -1,4 +1,4 @@
-<div class="container recepies">
+<div class="container">
     <h2>Rezept ändern</h2>
 
     <?php

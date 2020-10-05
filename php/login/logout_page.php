@@ -1,6 +1,6 @@
-<div class='container recepies'>
+<div class='container'>
     <h2>Erfolgreich ausgeloggt</h2>
-    <div class="nachricht">
+    <div class="message">
         Bis zum nächsten Mal!
         <p>
         <a href='?link=login' class='btn btn-green'>Login</a>

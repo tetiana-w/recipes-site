@@ -1,6 +1,6 @@
 <?php	
 	function create_url($link, $link_name) {
-		$menu_link = "<a class='menu' type='submit' href='?link=$link'>$link_name</a>";
+		$menu_link = "<a class='menu-links' type='submit' href='?link=$link'>$link_name</a>";
 		return $menu_link;
 	}
 	function create_links($links){

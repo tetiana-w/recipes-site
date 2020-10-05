@@ -1,4 +1,4 @@
-<div class="nachricht">
+<div class="message">
 <?php
 if ($datenbank->affected_rows == 1 && $datenbank->warning_count == 0) {
     echo "<p>Geschpeichert</p>";
@@ -9,4 +9,5 @@ if ($datenbank->affected_rows == 1 && $datenbank->warning_count == 0) {
 }
 
 ?>
+<a href='?link=all&rezeptnum=<?php echo $rezept_num ?>' class='btn btn-green'>Zurück</a>
 </div>

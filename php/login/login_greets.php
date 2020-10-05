@@ -1,3 +1,3 @@
-<div class="container recepies">
+<div class="container">
     <h2>Eingelogt</h2>
 </div>

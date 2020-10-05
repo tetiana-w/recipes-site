@@ -16,19 +16,19 @@ while (
     ) {
         $auswahl = "bright";
     } 
-    echo "<li>
-            <a href='?link=" . $_GET["link"] .
-             "&gaengemenue=$gaengemenuenum' class='$auswahl'>
+    echo "
+            <a class='menu-links $auswahl' href='?link=" . $_GET["link"] .
+             "&gaengemenue=$gaengemenuenum'>
                 $gaengemenue
             </a>
-        </li>";
+        ";
 }
 $auswahl = (isset($_GET["gaengemenue"]) &&
 $_GET["gaengemenue"] == 0 || !isset($_GET["gaengemenue"])) ? "bright" : "dark";
-echo "<li>
-<a href='?link=" . $_GET["link"] .
- "&gaengemenue=0' class='$auswahl'>
+echo "
+<a class='menu-links $auswahl' href='?link=" . $_GET["link"] .
+ "&gaengemenue=0'>
     Alle
 </a>
-</li>";
+";
 ?>

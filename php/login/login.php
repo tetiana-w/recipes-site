@@ -1,4 +1,4 @@
-<div class="container recepies">
+<div class="container">
     <?php
     if (!isset($_SESSION["eingeloggt"])) {
         include("login_form.php");
