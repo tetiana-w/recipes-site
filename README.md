@@ -4,10 +4,13 @@ Eine Webseite mit Rezepten, die in einer Datenbank gespeichert sind. Auf der Web
 <p align="center">
   <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_recipes.png" width="800" title="Seite Rezepte">  
 </p>
-<p>
+<p align="center">
+  <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_recipes_mobile.png" width="800" title="Seite Rezepte, Mobile Version">  
+</p>
+<p align="center">
 <img src="https://github.com/tetiana-w/recipes-site/blob/master/project_screenshot_login.png" width="800">
 </p>
-<p>
+<p align="center">
 <img src="https://github.com/tetiana-w/recipes-site/blob/master/screenshot_user_table.png" width="800">
 </p>
 
